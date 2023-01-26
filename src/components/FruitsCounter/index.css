@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bg-contaier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+}
+.count-text {
+  text-align: center;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .count-text {
+    font-size: 40px;
+  }
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  .fruit-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  .fruit-card {
+    margin: 20px;
+  }
+}
+.img-style {
+  width: 200px;
+  height: 175px;
+}
+@media (min-width: 768px) {
+  .img-style {
+    width: 300px;
+    height: 250px;
+  }
+}
+.count {
+  color: #ffd569;
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  width: 130px;
+  margin-top: 20px;
+}
